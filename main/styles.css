@@ -50,12 +50,9 @@ header{
 }
 
 
-
-
 main{
 background-color: black;
 color: var(--primary);
-height: 100vh;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -63,7 +60,7 @@ align-items: center;
 }
 
 #hero{
-    margin-top: 65px;
+    margin-top: 80px;
     padding: 1rem;
     max-width: 1200px;
     display: flex;
@@ -90,7 +87,7 @@ align-items: center;
 }
 
 .hero-info p{
-    font-size: 18px;
+    font-size: 20px;
     width: 70%;
 
 }
@@ -101,7 +98,7 @@ align-items: center;
     width: 120px;
     padding: 9px 0;
     border-radius: 8px;
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
     flex-direction: row-reverse;
 }
@@ -118,10 +115,85 @@ align-items: center;
 .info-empresa{
     width: 50%;
     margin-top: 70px;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
     flex-direction: column;
     justify-content: center;
+    color: gainsboro;
+}
+
+#tarjetas-juegos{
+    
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-flow: row;
+    gap: 30px;
+    padding: 40px;
+    border: 3px solid var(--secondary);
+    color: white;
+    max-width: 1200px;
+}
+
+.info-juegos p{
+    margin-top: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.juego{
+    border: 2px solid var(--secondary);
+    border-radius: 10px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    width: 220px;
+  }
+
+  .juego p {
+    padding: 8px;
+    border-radius: 20px;
+    text-align: center;
+    background-clip: text;
+    color: var(--primary);
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 500px;
+  }
+
+  #contacto{
+    background-color: black;
+    color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#final{
+    margin-top: 60px;
+    background-color: rgb(10, 10, 10);
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: gainsboro;
+    border-radius: 5px;
+}
+
+.contact{
+    font-size: 18px;
+    width: 50%;
+    color: gainsboro;
+
 }
 
 

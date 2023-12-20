@@ -1,0 +1,90 @@
+@media (max-width: 1200px) {
+    main {
+      width: 100%;
+    }
+  
+    .card {
+      width: 60%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    main {
+      width: 100%;
+    }
+  
+    .navbar,
+    .navbar-list{
+      gap: 20px;
+      padding: 0px 10px;
+    }
+  
+    .navbar-list{
+      display: none;
+      position: absolute;
+      top: 65px;
+      left: 25%;
+      right: 20%;
+      padding: 30px 15px;
+      flex-direction: column;
+      background-color: var(--nav-bg);
+      border: 1px solid var(--electric);
+      border-top: none;
+      border-radius: 0px 0px 10px 10px;
+      z-index: 2;
+    }
+  
+  
+    .car {
+      width: 30px;
+    }
+  
+    #hero {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .hero-info {
+      text-align: center;
+      width: 100%;
+      line-height: 20px;
+    }
+  
+    .hero-card {
+      display: none;
+    }
+  
+    .hero-info p {
+      align-items: center;
+      gap: 50px;
+    }
+  
+  
+    .info-empresa {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      gap: 30px;
+    }
+  
+  }
+  
+  @media (max-width: 768px) {
+    main {
+      width: 100%;
+    }
+  }
+
+  
+  #final{
+    margin-top: 60px;
+    background-color: rgb(10, 10, 10);
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: gainsboro;
+    border-radius: 5px;
+    }
+  
